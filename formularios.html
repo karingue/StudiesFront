@@ -8,9 +8,31 @@
 <body style="background-color: azure;">
     <h1>Página de Formulários</h1>
 
-    <form>
+    <form action="arquivobackend.js" method="get">
+        <!--LEGENDA PARA O NOME-->
         <label for="campo_nome">Nome:</label>
-        <input id="campo_nome" type="text" placeholder="Digite seu Nome">
+        <!--INPUT PARA ENTRADA DE DADOS SIMPLES-->
+        <input id="campo_nome" type="text" placeholder="Digite seu Nome" required><br>
+        <!--LEGENDA PARA A SENHA-->
+        <label for="campo_senha">Senha:</label>
+        <!--LEGENDA PARA A ENTRADA DE DADOS COMO SENHA-->
+        <input id="campo_senha" type="password" placeholder="Digite sua Senha" required><br>
+        <!--LEGENDA PARA O EMAIL-->
+        <label for="campo_email">Email:</label>
+        <!--LEGENDA PARA A ENTRADA DE DADOS COMO EMAIL-->
+        <input id="campo_email" type="email" placeholder="Digite seu email" required><br>
+        <!---->
+        <h2>Animal de Estimação</h2>
+        <input type="radio" id="dog" name="Animal" value="Cachorro">
+        <label for="dog">Cachorro</label>
+        <br><br>
+        <input type="radio" id="cat" name="Animal" value="Gato">
+        <label for="cat">Gato</label>
+        <br><br>
+        <!--INPUT TYPE QUE CRIA UM BOTÃO PARA ENVIAR O FORMULÁRIO-->
+        <input type="submit" value="Enviar o Formulário">
+        <br><br>
+
     </form>
     
     <br>
