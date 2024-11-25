@@ -1,0 +1,10 @@
+<!--    LINK ABSOLUTO (URL ABSOLUTA)   -->
+<a href="https://google.com" target="_blank">Vá para o google</a>
+<hr>
+<!--    LINK RELATIVO (URL RELATIVO)   -->
+<a href="sobre.html">Sobre</a>
+
+<!--    ADICIONA IMAGEM NO PROJETO     -->
+<img src="https://cdn.motor1.com/images/mgl/XB60ze/s1/volkswagen-golf-gti-mk8-5-2025.jpg" width="350" alt="Golf GTI MK8">
+<!--    TEXTO AUXILIAR PARA DEFICIENTES VISUAIS, COM AUDIO-->
+<alt="">
