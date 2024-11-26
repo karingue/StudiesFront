@@ -32,13 +32,52 @@
         <input type="radio" id="bird" name="Passarinho" value="Passarinho">
         <label for="bird">Passarinho</label>
         <br><br>
+
+        <h2>O que você tem em casa?</h2>
+        <!--INPUT QUE CRIA A OPÇÃO DE CHECKBOX-->
+        <input id="item1" type="checkbox" name="item1" value="TV">
+        <label for="item1">TV</label><br><br>
+
+        <input id="item2" type="checkbox" name="item2" value="GELADEIRA">
+        <label for="item2">GELADEIRA</label><br><br>
+
+        <input id="item3" type="checkbox" name="item3" value="COMPUTADOR">
+        <label for="item3">COMPUTADOR</label><br><br>
+
+        <h2>Qual sua cor favorita</h2>
+        <!--Cria uma caixinha de seleção, ou combo box-->
+        <select  name="Escola uma cor">
+            <!--Comando para deixar o primeiro campo de seleção de forma
+            que não seja possivel ele ser escolhido-->
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Purple">Purple</option>
+        </select><br><br>
+
+        <!--Comando para box com inserção de texto maior-->
+        <h2>Digite sua mensagem:</h2><br>
+        <textarea name="mensagem" placeholder="Digite aqui uma mensagem" rows="10" cols="40"></textarea><br>
+        
+        
         <!--INPUT TYPE QUE CRIA UM BOTÃO PARA ENVIAR O FORMULÁRIO-->
         <input type="submit" value="Enviar o Formulário">
-        <br><br>
-        
-
+          
     </form>
+    <br>
     
+    <button>Clique aqui</button> 
+    
+    <br><br>
+    <div class="checkbox-container">
+        <input type="checkbox" id="myCheckbox">
+        <label for="myCheckbox">Ativar a escrita</label>
+        <input type="text" id="myText" placeholder="Escreva algo aqui..." disabled>
+    </div>
+
+    <script src="script.js"></script>
+
     <br>
     <hr><br>
     <a href="index.html">Retornar para a página principal</a>
