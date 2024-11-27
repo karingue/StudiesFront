@@ -1,0 +1,36 @@
+Tipos de formadedefinirnomesdedivemCSS
+
+id=""/ Chama utilizando #
+class="" / Chama utilizando .
+
+data-tipo="principal" / Chama utilizando div[data-tipo="principal"]
+
+Para aumentar especifidade combinar seletores
+class="minhaClasse" id="meuId" / Chama utilizando #meuId.minhaClasse
+
+
+<!--A Tag header é uma tag SEMANTICA que remete ao topo do site-->
+ <header id="topMenu">
+    <h1>TopMenu</h1>
+    <p>Aqui é a parte do topo</p>
+</header>
+
+    <!--A tag nav é uma tag SEMANTICA que remete ao menu do site-->
+    <nav class="navBar">
+        <a href="index.html">Retornar para página principal</a>&nbsp;
+        <a href="iframe.html">Ir para página de Iframes</a>&nbsp;
+        <a href="formularios.html">Ir para a pagina de formularios</a>&nbsp;
+        <a href="video.html">Ir para a página de videos</a> &nbsp;
+    </nav>
+
+<!--A tag section é uma tag SEMANTICA que remete as diferentes seções do contéudo do site-->
+<section id="contentBar">
+        
+    <h2>Conteudo</h2>
+    <p>Conteudo sendo adicionado ao sites para testes.</p>
+</section>
+
+<!--A tag footer é uma tag SEMANTICA que remete ao rodapé do site-->
+<footer id="rodape">
+    <h2>Aqui é o rodape</h2>
+</footer>    
